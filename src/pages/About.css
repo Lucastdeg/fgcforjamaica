@@ -1,0 +1,122 @@
+.about {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  padding: 0 2rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: #333333;
+  text-align: left;
+  padding-left: 0;
+}
+
+.team-section {
+  display: flex;
+  gap: 3rem;
+  align-items: stretch;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.team-content {
+  flex: 1;
+}
+
+.team-content p {
+  font-size: 1.1rem;
+  line-height: 2.2;
+  color: #666666;
+  margin-bottom: 1.5rem;
+  padding-left: 1px;
+}
+
+.team-image {
+  flex: 0 0 500px;
+  margin-left: 2rem;
+  margin-top: -6rem;
+  display: flex;
+  align-items: stretch;
+}
+
+.team-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contact-section {
+  margin-top: 3rem;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333333;
+  text-align: left;
+  padding-left: 0;
+}
+
+.contact-info {
+  margin-top: 1rem;
+  padding-left: 1px;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666666;
+  margin-bottom: 1rem;
+}
+
+.contact-info strong {
+  color: #333333;
+}
+
+.contact-info a {
+  color: #333333;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.contact-info a:hover {
+  color: #2a5f8f;
+}
+
+@media (max-width: 968px) {
+  .team-section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .team-image {
+    flex: 1;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .contact-title {
+    font-size: 1.75rem;
+  }
+
+  .team-content p,
+  .contact-info p {
+    font-size: 1rem;
+  }
+
+  .about {
+    padding: 0 1rem;
+  }
+}
+
