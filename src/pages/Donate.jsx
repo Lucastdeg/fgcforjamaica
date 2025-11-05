@@ -16,6 +16,10 @@ function Donate() {
               The Red Cross in Panama is also working to support relief efforts for Jamaica during this difficult time. 
               Your contribution can help provide essential aid, medical assistance, and resources to those most affected.
             </p>
+            <p>
+              The American Friends of Jamaica (AFJ) also supports Jamaica as it has announced a US$1M matching fund for Hurricane Melissa on NBC News. 
+              Corporate Matching is also available through Benevity.
+            </p>
           </div>
           <div className="donate-buttons">
             <a 
@@ -34,6 +38,15 @@ function Donate() {
               className="donate-button"
             >
               Donate to the Red Cross in Panama
+              <span className="arrow-icon">→</span>
+            </a>
+            <a 
+              href="https://theafj.app.neoncrm.com/forms/afj-disaster-relief-fund" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="donate-button donate-button-afj"
+            >
+              Donate to American Friends of Jamaica (AFJ)
               <span className="arrow-icon">→</span>
             </a>
           </div>
